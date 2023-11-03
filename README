@@ -1,0 +1,14 @@
+In this repository there are Python scripts that I have used for standard shell-model calculations of nuclear structure physics. They are based on a brute-force diagonalization of a Hamiltonian matrix in the uncoupled M-scheme.
+
+---Contents: 
+
+-t2j2ints.py: creates files with the two-body coupled matrix elements of angular momentum J² and isospin T² operators in ANTOINE's format
+
+-uncouple_ints.py: transforms the former coupled matrix elements to the uncoupled form. It also creates a file with the single-particle data of the configuration interaction used
+
+-sm_diag.py: builds and diagonalizes the Hamiltonian matrix of a nucleus in consideration. It outputs the hamiltonian matrix and the first three eigenstates to files in the many-body basis that is also output.
+
+-run_be10.sh: runs the example case of 10Be in the p shell with the CK interaction
+
+
+---For doubts, problems or complains, write an email to amromero92(at)gmail(dot)com
