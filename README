@@ -10,5 +10,16 @@ In this repository there are Python scripts that I have used for standard shell-
 
 -run_be10.sh: runs the example case of 10Be in the p shell with the CK interaction
 
+-cki: CK interaction file 
+
+-QQ_PP_ints.py: build the coupled two-body matrix elements of a general mix of the quadrupole and monopole (J=0) pairing interactions
+
+-quantum_info.py: brief collection of quantum-information tools applied for nuclear structure within the shell model
+
+-MI_plot.py: makes a pretty matrix plot of the quantum mutual information data
+
+-requirements.txt: packages I have installed in the conda environment I use to run these scripts. Not all of them are needed
+
+-quantum_env.yml: exported conda environment
 
 ---For doubts, problems or complains, write an email to amromero92(at)gmail(dot)com
